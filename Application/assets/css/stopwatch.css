@@ -7,3 +7,6 @@
 #reset-button {
     cursor: pointer;
 }
+.hours {
+    content: attr(date-minutes);
+}
