@@ -1,9 +1,9 @@
-#Start {
-
+#start-button {
+    cursor: pointer;
 }
-#Stop {
-
+#stop-button {
+    cursor: pointer;
 }
-#Reset {
-    
+#reset-button {
+    cursor: pointer;
 }
