@@ -1,0 +1,1 @@
+var hours = 5, minutes = 10, seconds = 10;
