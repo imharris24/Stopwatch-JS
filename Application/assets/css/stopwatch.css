@@ -1,17 +1,9 @@
-#stopwatch {
-    cursor: default;
-    &, & * {
-        transition: all 0.15s ease-out;
-    }
-    #controls {
-        #reset-button {
-            cursor: pointer;
-        }
-        #start-button {
-            cursor: pointer;
-        }
-        #stop-button {
-            cursor: pointer;
-        }
-    }    
+#start-button {
+    cursor: pointer;
+}
+#stop-button {
+    cursor: pointer;
+}
+#reset-button {
+    cursor: pointer;
 }
