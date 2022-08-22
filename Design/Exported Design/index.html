@@ -15,26 +15,30 @@
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="assets/css/Aldrich.css">
     <link rel="stylesheet" href="assets/css/animated-form-in-a-modalbutton-CDNjs-Search-Modal.css">
-    <link rel="stylesheet" href="assets/css/animated-form-in-a-modalbutton-Rounded-Button.css">
-    <link rel="stylesheet" href="assets/css/animated-form-in-a-modalbutton-styles.css">
     <link rel="stylesheet" href="assets/css/animated-form-in-a-modalbutton-theme.css">
-    <link rel="stylesheet" href="assets/css/animated-form-in-a-modalbutton.css">
+    <link rel="stylesheet" href="assets/css/Button-Ripple-Effect-Animation-Wave-Pulse.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body style="background: var(--bs-dark);">
     <!-- Start: Section/Container/Row/Column -->
-    <section class="flash animated" style="width: 60%;margin: 0px;height: 80%;margin-top: 8%;margin-right: 10%;margin-bottom: 0px;margin-left: 20%;background: transparent;font-family: Aldrich, sans-serif;border-radius: 10px;border: 4px double var(--bs-orange);padding-top: 2%;padding-right: 2%;padding-bottom: 2%;padding-left: 2%;">
+    <section class="flash animated" style="width: 60%;margin: 0px;height: 80%;margin-top: 5%;margin-right: 10%;margin-bottom: 0px;margin-left: 20%;background: transparent;font-family: Aldrich, sans-serif;border-radius: 10px;border: 4px double var(--bs-orange);padding-top: 2%;padding-right: 2%;padding-bottom: 2%;padding-left: 2%;">
         <h1 style="color: var(--bs-orange);text-align: center;font-weight: bold;margin-top: 8px;">STOPWATCH</h1>
-        <h1 style="color: var(--bs-white);font-weight: bold;text-align: center;">00 : 00 : 00</h1><!-- Start: Rounded Button --><button class="add">START - STOP</button><!-- End: Rounded Button -->
-        <!-- Start: Rounded Button --><button class="add">RESET</button><!-- End: Rounded Button -->
+        <h1 style="color: var(--bs-white);font-weight: bold;text-align: center;">00 : 00 : 00</h1><!-- Start: Button Ripple Effect Animation (Wave, Pulse) -->
+        <div class="m-5">
+            <div class="text-center m-3"></div>
+            <div class="text-center m-3"><button class="btn btn-success btn-lg border rounded-0 ripple-effect" type="button" style="width: 300px;">Start</button></div>
+            <div class="text-center m-3"><button class="btn btn-warning btn-lg border rounded-0 ripple-effect" type="button" style="width: 300px;color: var(--bs-white);background: var(--bs-orange);">reset</button></div>
+            <div class="text-center m-3"><button class="btn btn-danger btn-lg border rounded-0 ripple-effect" type="button" style="width: 300px;">STop</button></div>
+        </div><!-- End: Button Ripple Effect Animation (Wave, Pulse) -->
     </section><!-- End: Section/Container/Row/Column -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
     <script src="assets/js/animated-form-in-a-modalbutton.js"></script>
+    <script src="assets/js/Button-Ripple-Effect-Animation-Wave-Pulse.js"></script>
 </body>
 
 </html>
