@@ -24,14 +24,14 @@
 
 <body style="background: var(--bs-dark);">
     <!-- Container -->
-    <section class="flash animated" style="width: 60%;margin: 0px;height: 80%;margin-top: 5%;margin-right: 10%;margin-bottom: 0px;margin-left: 20%;background: transparent;font-family: Aldrich, sans-serif;border-radius: 10px;border: 4px double var(--bs-orange);padding-top: 2%;padding-right: 2%;padding-bottom: 2%;padding-left: 2%;">
+    <section id="stopwatch" class="flash animated" style="width: 60%;margin: 0px;height: 80%;margin-top: 5%;margin-right: 10%;margin-bottom: 0px;margin-left: 20%;background: transparent;font-family: Aldrich, sans-serif;border-radius: 10px;border: 4px double var(--bs-orange);padding-top: 2%;padding-right: 2%;padding-bottom: 2%;padding-left: 2%;">
         <!-- Heading -->
         <div>
             <h1 style="color: var(--bs-orange);text-align: center;font-weight: bold;margin-top: 8px;">STOPWATCH</h1>
         </div>
         <!-- Clock -->
         <div>
-            <h1 style="color: var(--bs-white);font-weight: bold;text-align: center;"><script type="text/javascript">document.write(hours);</script> : <script>document.write(minutes);</script> : <script>document.write(seconds);</script></h1>
+            <h1 style="color: var(--bs-white);font-weight: bold;text-align: center;" id="stopwatch-time">00 : 00 : 00</h1>
         </div>
         <!-- Buttons -->
         <div class="m-5">
@@ -39,11 +39,13 @@
             <div class="text-center m-3">
                 <button id="start-button" class="btn btn-success btn-lg border rounded-0 ripple-effect" type="button" style="width: 300px;">Start</button>
             </div>
+            <!-- Reset Button -->
             <div class="text-center m-3">
                 <button id="reset-button" class="btn btn-warning btn-lg border rounded-0 ripple-effect" type="button" style="width: 300px;color: var(--bs-white);background: var(--bs-orange);">reset</button>
             </div>
+            <!-- Stop Button -->
             <div class="text-center m-3">
-                <button id="stop-button" class="btn btn-danger btn-lg border rounded-0 ripple-effect" type="button" style="width: 300px;">STop</button>
+                <button id="stop-button" class="btn btn-danger btn-lg border rounded-0 ripple-effect" type="button" style="width: 300px;">Stop</button>
             </div>
         </div>
     </section>
