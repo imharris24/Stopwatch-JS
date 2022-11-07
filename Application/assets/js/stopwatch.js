@@ -13,6 +13,9 @@ var buttonReset = document.getElementById('reset-button');
 var Interval ;
   
 buttonStart.onclick = function() {
+  	if(milisec != 0){
+		  stop();
+	  }
     start();
 }
 
