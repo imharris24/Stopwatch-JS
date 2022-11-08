@@ -30,8 +30,8 @@ A simple stopwatch, developed using HTML, CSS & JavaScript that provides user wi
 
 ## How to run this application?
 
-- Download Application folder from this repository.
-- Open index.html with any browser.
+- Download src folder from this repository.
+- Open src/index.html with any browser.
 
 
 
