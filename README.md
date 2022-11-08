@@ -14,9 +14,9 @@ A simple stopwatch, developed using HTML, CSS & JavaScript that provides user wi
 
 ## Screenshots
 
-![App Screenshot]([https://raw.githubusercontent.com/imharris24/GifGifGo-JS/main/Screenshots/SC001.png](https://raw.githubusercontent.com/imharris24/Stopwatch-JS/main/Screenshot/SCR01.png?token=GHSAT0AAAAAABZQSA2C5SXNETHS7VAJ2O2CY3J5O6A))
+![App Screenshot](https://raw.githubusercontent.com/imharris24/Stopwatch-JS/main/Screenshot/SCR01.png?token=GHSAT0AAAAAABZQSA2C5SXNETHS7VAJ2O2CY3J5O6A)
 
-![App Screenshot]([https://raw.githubusercontent.com/imharris24/GifGifGo-JS/main/Screenshots/SC002.png](https://raw.githubusercontent.com/imharris24/Stopwatch-JS/main/Screenshot/SCR02.png?token=GHSAT0AAAAAABZQSA2DTAZJ6GSS4HT3MI6CY3J5PAA))
+![App Screenshot](https://raw.githubusercontent.com/imharris24/Stopwatch-JS/main/Screenshot/SCR02.png?token=GHSAT0AAAAAABZQSA2DTAZJ6GSS4HT3MI6CY3J5PAA)
 
 
 ## Tech Stack
