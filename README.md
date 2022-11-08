@@ -25,7 +25,7 @@ A simple stopwatch, developed using HTML, CSS & JavaScript that provides user wi
 
 **Server:** no server side
 
-**API:** Giphy API
+**API:** no API
 
 
 ## How to run this application?
