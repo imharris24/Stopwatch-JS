@@ -39,8 +39,11 @@ A simple stopwatch, developed using HTML, CSS & JavaScript that provides user wi
 
 Here are some related projects,
 
-[Clock-js!](https://github.com/imumer16/Clock-js)
+[GifGif Go!](https://github.com/imharris24/GifGifGo-JS)
 
+[Rock Paper Scissors](https://github.com/imharris24/RockPaperScissors-JS)
+
+[Match The Cards](https://github.com/imharris24/MatchTheCards-JS)
 
 
 
