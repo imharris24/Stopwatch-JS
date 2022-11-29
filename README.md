@@ -54,4 +54,5 @@ Here are some related projects,
 
 ## Feedback
 
-If you have any feedback, please reach out to us at harris20014@gmail.com.com
+If you have any feedback, please reach out to us at harris20014@gmail.com
+
